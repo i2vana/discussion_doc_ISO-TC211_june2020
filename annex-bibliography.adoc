@@ -3,23 +3,53 @@
 [[Bibliography]]
 = Bibliography
 
-[NOTE]
-.Example Bibliography (Delete this note).
-===============================================
-The TC has approved Springer LNCS as the official document citation type.
+[Brickley19] Brickley, Dan, Burgess, Matthew and Noy, Natasha: Google Dataset Search: Building a search engine for datasets in an open Web ecosystem. In: The World Wide Web Conference (2019), https://doi.org/10.1145/3308558.3313685
 
-Springer LNCS is widely used in technical and computer science journals and other publications
+[CALD] Cambridge University Press: dataset. Cambridge Advanced Learner’s Dictionary. 4th edition (2013), https://dictionary.cambridge.org/dictionary/english/dataset (last accessed 6 March 2020)
 
-* For citations in the text please use square brackets and consecutive numbers: [1], [2], [3]
+[Chapman19] Chapman, Adriane, Simperl, Elena, Koesten, Laura, Konstantinidis, George, Ibáñez, Luis-Daniel, Kacprzak, Emilia and Groth, Paul: Dataset search: a survey. The VLDB Journal (2019), https://doi.org/10.1007/s00778-019-00564-x
 
-– Actual References:
+[DCAT v1] Maali, Fadi and Erickson, John, eds.: Data Catalog Vocabulary (DCAT). W3C Recommendation (2014), https://www.w3.org/TR/2014/REC-vocab-dcat-20140116/
 
-[n] Journal: Author Surname, A.: Title. Publication Title. Volume number, Issue number, Pages Used (Year Published)
+[DCAT v2] Albertoni, Riccardo, Browning, David, Cox, Simon, Gonzalez Beltran, Alejandra, Perego, Andrea and Winstanley, Peter, eds.: Data Catalog Vocabulary (DCAT) - Version 2. W3C Recommendation (2020), https://www.w3.org/TR/vocab-dcat-2/ (last accessed 6 March 2020)
 
-[n] Web: Author Surname, A.: Title, http://Website-Url
+[DCMI] DCMI Usage Board: DCMI Metadata Terms. DCMI Recommendation (2012), http://dublincore.org/documents/dcmi-terms/
 
-===============================================
+[Demirbas10] Demirbas, Murat, Ali Bayir, Murat, Akcora, Cuneyt Gurcan, Yilmaz, Yavuz Selim and Ferhatosmanoglu, Hakan: Crowd-sourced sensing and collaboration using twitter. In: 2010 IEEE International Symposium on “A World of Wireless, Mobile and Multimedia Networks” (WoWMoM) (2010), https://doi.org/10.1109/WOWMOM.2010.5534910
 
-((( Example )))
-[[OGC2015]]
-[1] OGC: OGC Testbed 12 Annex B: Architecture. (2015).
+[Directives] ISO and IEC: ISO/IEC Directives, Part 2. Principles and rules for the structure and drafting of ISO and IEC documents. 8th edition (2018), https://www.iso.org/sites/directives/current/part2/index.xhtml
+
+[Dodd17] Dodds, Leigh: What is a Dataset? Part 2: A Working Definition. Lost Boy (2017), https://blog.ldodds.com/2017/10/23/what-is-a-dataset-part-2-a-working-definition/ (last accessed 6 March 2020)
+
+[DWBP] Lóscio, Bernadette Farias, Burle, Caroline and Calegari, Newton, eds.: Data on the Web Best Practices. W3C Recommendation (2017), https://www.w3.org/TR/dwbp/
+
+[Go09] Go, Alec, Bhayani, Richa and Huang, Lei: Twitter Sentiment Classification using Distant Supervision. (2009), https://cs.stanford.edu/people/alecmgo/papers/TwitterDistantSupervision09.pdf
+
+[Humboldt] de Vries, Marian, di Donato, Pasquale, Ledoux, Hugo, Zlatanova, Sisi and Laurent, Dominique: A7.1-D2 Concept of application-specific harmonised data models. Humboldt Deliverable (2010), www.esdi-humboldt.eu/files/1102-a7_1-d2_concept_of_application-specific_harmonised-tud-002-final.pdf
+
+[IAO] data set. Information Artifact Ontology (2019), http://purl.obolibrary.org/obo/IAO_0000100 (last accessed 6 March 2020)
+
+[ISO 704:2009] ISO/TC 37/SC 1: ISO 704:2009 Terminology work — Principles and methods (2009), https://www.iso.org/obp/ui/#iso:std:iso:704:ed-3:v1:en
+
+[ISO 8000-2:2018] ISO/TC 184/SC 4: ISO 8000-2:2018 Data quality — Part 2: Vocabulary (2018), https://www.iso.org/obp/ui/#iso:std:iso:8000:-2:ed-3:v1:en
+
+[ISO 19115:2014] ISO/TC 211: ISO 19115-1:2014 Geographic information  Metadata — Part 1: Fundamentals (2014), https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:ed-1:v1:en
+
+[NCIt] National Cancer Institute: Data Set. NCI Thesaurus. Version 19.12e (2019), https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C47824 (last accessed 6 March 2020)
+
+[Nordterm] Suonuuti, Heidi: Guide to terminology. 2nd edition (2001), http://www.nordterm.net/filer/publikationer/guider/Guide_to_Terminology.pdf
+
+[OALD] Oxford University Press: data set. Oxford Advanced Learner’s Dictionary. 10th edition, https://www.oxfordlearnersdictionaries.com/definition/english/data-set (last accessed 6 March 2020)
+
+[OECD] Organisation for Economic Co-operation and Development: data set. OECD Glossary of Statistical Terms (2006), https://stats.oecd.org/glossary/detail.asp?ID=542 (last accessed 6 March 2020)
+
+[Renear10] Renear, Allen H., Sacchi, Simone and Wickett, Karen M.: Definitions of dataset in the scientific and technical literature. Proceedings of the American Society for Information Science and Technology (2010), https://doi.org/10.1002/meet.14504701240
+
+[schema.org] Schema.org Community Group: Dataset - schema.org Type, https://schema.org/Dataset (last accessed 6 March 2020)
+
+[Seppälä17] Seppälä, Selja, Ruttenberg, Alan and Smith, Barry: Guidelines for writing definitions in ontologies. Ciência da Informação (2017), https://philarchive.org/archive/SEPGFWv1
+
+[VoID] Cyganiak, Richard, Zhao, Jun, Alexander, Keith and Hausenblas, Michael: Vocabulary of Interlinked Datasets (VoID) (2011), http://vocab.deri.ie/void
+
+[WhatIs] Rouse, Margaret: data set. WhatIs.com (2016), https://whatis.techtarget.com/definition/data-set (last accessed 6 March 2020)
+

@@ -1,0 +1,13 @@
+[appendix]
+:appendix-caption: Annex
+
+== Overview of principles for good definitions (Informative)
+
+This document refers several times to principles for good definitions, such as:
+
+* a definition should be brief
+* a definition should be neither too broad nor too narrow
+* a definition should take into account the target audience
+* a definition should pass the substitution test
+
+For more information on these principles, see [ISO 704:2009], [Nordterm] and [Seppälä17].

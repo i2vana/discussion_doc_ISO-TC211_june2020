@@ -1,12 +1,12 @@
 [big]*i.     Abstract*
 
-<Insert Abstract Text here>
+This document tries to come to a better understanding of the concept of “dataset”.
 
 [big]*ii.    Keywords*
 
 The following are keywords to be used by search engines and document catalogues.
 
-ogcdoc, OGC document,  <tags separated by commas>
+ogcdoc, OGC document, dataset, data set
 
 [big]*iii.   Preface*
 
@@ -21,10 +21,38 @@ Recipients of this document are requested to submit, with their comments, notifi
 
 The following organizations submitted this Document to the Open Geospatial Consortium (OGC):
 
-Organization name(s)
+* https://sdfe.dk/[Danish Agency for Data Supply and Efficiency (SDFE)]
+* https://digst.dk/[Danish Agency for Digitisation (DIGST)]
 
 [big]*v.     Submitters*
 
 All questions regarding this submission should be directed to the editor or the submitters:
 
-Name  Affiliation
+|===
+|Name |Affiliation
+
+|Heidi Vanparys _(editor)_
+|Danish Agency for Data Supply and Efficiency
+
+|Anna Odgaard Ingram _(editor)_
+|Danish Agency for Digitisation
+
+|Ann Nyby Rennison
+|Danish Agency for Data Supply and Efficiency
+
+|Dorthe Kirstine Nordentoft
+|Danish Agency for Data Supply and Efficiency
+
+|Jan Hjelmager
+|Danish Agency for Data Supply and Efficiency
+
+|Lars Erik Storgaard
+|Danish Agency for Data Supply and Efficiency
+
+|Maya Borges
+|Danish Agency for Digitisation
+
+|Peter Bruhn Andersen
+|Danish Agency for Digitisation
+
+|===

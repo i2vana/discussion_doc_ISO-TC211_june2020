@@ -1,4 +1,4 @@
-:Title: OGC (add title text)
+:Title: On the definition of "dataset"
 :titletext: {Title}
 :doctype: book
 :encoding: utf-8
@@ -15,13 +15,13 @@
 |===
 |{set:cellbgcolor:#FFFFFF}
 |[big]*Open Geospatial Consortium*
-|Submission Date: <yyyy-mm-dd>
+|Submission Date: 2020-03-06
 |Approval Date:   <yyyy-mm-dd>
 |Publication Date:   <yyyy-mm-dd>
 |External identifier of this OGC(R) document: http://www.opengis.net/doc/{doc-type}/{standard}/{m.n}
 |Internal reference number of this OGC(R) document:    YY-nnnrx
 |Category: OGC(R) Discussion Paper
-|Editor:   <Name(s) of Editor or Editors>
+|Editor:   Heidi Vanparys, Anna Odgaard Ingram
 |===
 
 [cols = "^", frame = "none"]
@@ -32,7 +32,7 @@
 [cols = "^", frame = "none", grid = "none"]
 |===
 |*Copyright notice*
-|Copyright (C) <year> Open Geospatial Consortium
+|Copyright (C) 2020 Open Geospatial Consortium
 |To obtain additional rights of use, visit http://www.opengeospatial.org/legal/
 |===
 
@@ -88,8 +88,6 @@ include::clause_5_conventions.adoc[]
 
 include::clause_6_informative_text.adoc[]
 
-include::clause_7_normative_text.adoc[]
-
 <<<
 ////
 add or remove annexes after "A" as necessary
@@ -97,7 +95,7 @@ add or remove annexes after "A" as necessary
 include::annex-a.adoc[]
 
 <<<
-include::annex-n.adoc[]
+include::annex-b.adoc[]
 
 <<<
 ////
