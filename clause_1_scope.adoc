@@ -1,5 +1,5 @@
 == Scope
-[NOTE]
-====
-Insert Scope text here. Give the subject of the document and the aspects of that scope covered by the document.
-====
+
+This document sheds light on the concept “dataset” and tries to come to a common and broad understanding of it.
+
+The definition and meaning of “data” are out of scope. “Dataset” is of course inherently related to “data”, and consequently, the exact meaning of “dataset” will depend on the chosen meaning of “data” in a given context. Nevertheless, recurring discussions on what a dataset is demonstrate that an elaboration on the concept of “dataset” is useful and needed.
