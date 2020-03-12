@@ -1,7 +1,7 @@
 = On the definition of “dataset”
 :title: On the definition of “dataset”
 :titletext: {Title}
-:keywords: dataset,data set,ogcdoc,OGC document
+:keywords: dataset,data set
 :description: The concept of “dataset” is a key concept in many domains. This document tries to come to a better understanding of it.
 :doctype: book
 :encoding: utf-8
@@ -14,8 +14,6 @@
 :source-highlighter: pygments
 
 
-
-include::clause_0_front_material_ogc.adoc[]
 
 include::clause_1_scope.adoc[]
 

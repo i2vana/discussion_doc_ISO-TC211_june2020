@@ -1,0 +1,80 @@
+== Discussion
+
+Several existing definitions and descriptions of “dataset” include the characteristic described as a defining characteristic. In the next sections, arguments are provided for which characteristics should be the defining ones and which characteristics are merely typical ones.
+
+=== The defining characteristic
+
+A dataset is more than the data it contains, thus “collection of data” as a definition would be too broad. According to <<Renear10>>, the use of a grouping terms such as collection or set, indicates that datasets are data treated collectively, as a unit, and that it seems that this feature identifies the fundamental kind of thing a dataset is. Some existing definitions already explicitly mention this feature in the definition: “as a whole entity” in <<WhatIs>>, and “as a single unit” in <<OALD>>.
+
+Shortening the definition to “data treated collectively” or “data treated as a unit” would be a violation of the principle that the genus of a definition should be in the singular form when the term being defined is in the single form. Therefore, “collection of data” should be used instead of just “data”.
+
+Certain existing definitions (<<OALD>>, <<CALD>>) place the concept “dataset” in the computing domain and even make a reference to that in the definition. In order to reduce the association with the computing domain, it is suggested to use the term “regard” instead of “treat”.
+
+Regarding the meaning of “collection”, data providers seem to adhere to the meaning of that term as explained in <<Renear10>>:
+
+____
+“Collection” seems to suggest that the addition or deletion of data does not imply a change in dataset identity, which would be inconsistent with the mathematical concept of a set. If datasets are collections in this sense, there is no accepted system of logical notions that can be applied, as the conceptual nature of collection as an ontological category remains unclear. The concept of collection also suggests that there is an intentional collecting of the constituents of a dataset.
+____
+
+The discussion in this clause leads to the following definition of a dataset: “collection of data that is regarded as a unit”.
+
+=== Identifiable versus regarded as a unit
+
+Comments often received from outside the ISO/TC 211 community concerning the ISO/TC 211 definition is that the current ISO/TC 211 definition, “identifiable collection of data”, poses problems, as it is not obvious what exactly “identifiable” means. This is exemplified in <<Humboldt>>, stating that ISO 19115 provides “quite an ambiguous definition of dataset”.
+
+It could be argued that because the “collection of data” is described as a dcat:Dataset, it is implicit that it is "regarded as a unit", but as this is an important aspect it would be beneficial to state this explicitly.
+
+So although “identifiable collection of data” is briefer than “collection of data that is regarded as a unit”, the latter is more understandable taking into account the broad target audience.
+
+=== The typical characteristics
+
+==== Purpose
+
+A dataset that is too large or complex to analyze with the current technologies, but that might be useful when technology evolves, does not serve a purpose. An archived dataset that is not in use anymore might be stored for legacy use.
+
+Furthermore, the purpose or usage of a dataset may change or become irrelevant over time. This change does not, however, imply that the dataset itself undergoes a change or becomes another dataset altogether. The existence of the dataset does not appear to be dependent on a specific purpose at a given point in time.
+
+==== Described by metadata
+
+In the context of data catalogs, built to help users find, access and use the data they need, data are described at dataset level in such a way these objectives are met, using an appropriate metadata standard. Indispensable are metadata elements such as an identifier and title, so that the dataset can be referred to - or in other words, be identified - be it by humans or by machines. In this context, a query is issued in the data catalog, and a dataset, described by metadata, is returned.
+
+However, dataset search can also be achieved by using the mechanism “issue query, build dataset” instead of “issue query, return dataset”, as described in <<Chapman19>>. One common example is the result of a simple SQL query in a traditional relational database management system. In more complex scenarios, different datasets are combined and analysed, all on the fly, resulting in a new dataset, without carefully prepared metadata.
+
+==== Available for use
+
+In the context of data catalogs, it is an inherent part of the use case that the data is already available. In the context of data catalogs based on the principles of the Web, where standards and best practices are developed “to encourage and enable the continued expansion of the Web as a medium for the exchange of data” <<DWBP>>, it is therefore evident, that a dataset is “available for access or download in one or more formats”, as stated in <<DCATv1>>, or “available for access or download in one or more representations” as stated in <<DCATv2>>.
+
+However, a dataset may be in a stage where it is only planned and the data have not yet been collected. Or the dataset may be in a stage where the data have already been collected but are not yet validated or post-processed and cannot yet be released. A third scenario may be that a temporary dataset is created for test or validation purposes, and not for sharing. A proper definition should be broad enough to take these scenarios into account too.
+
+==== Published or curated by single agent
+
+By introducing the restriction that a dataset must be either curated or published by a single agent, collaboratively generated resources cannot be considered datasets. Platforms such as Twitter allow for creating datasets with user-generated data. Application domains based on Twitter such as participatory sensing and crowdsourcing are emerging <<Demirbas10>>. Research based on data mining of tweets, as for instance done in <<Go09>>, is also done on datasets that are not published or curated by a single agent .
+
+Given the above, “published or curated by a single agent,'' should not be present in a “dataset” definition.
+
+==== Common topic
+
+Use cases where data from many different domains are combined to solve a particular problem or need will emerge more and more as the technology to build datasets on the fly on the basis of queries evolves. It therefore becomes clear that “having a common topic” is not a defining characteristic of a dataset.
+
+==== Syntactic structure
+
+As already indicated in <<Renear10>>: “data in a dataset are typically expected to have the same syntactic structure (records of the same length, field values in the same places, etc)”. An example of a dataset where this does not apply is a geospatial dataset containing a combination of vector data and raster data. Syntactic structure is therefore only a typical characteristic and not a defining characteristic.
+
+==== Governance & data provenance
+
+<<Dodd17>> provides a working definition of “dataset”,“collection of data that is managed using the same set of governance processes, have a shared provenance and share a common schema”, which are indeed useful criteria for data providers that are trying to find a way to publish their data.
+
+However, an established definition of “dataset”, should be broad enough to cover the following two examples, modified from <<Dodd17>> - although best practice usually will be to organise these data in several datasets:
+
+* one dataset containing annual releases of official statistics collected and processed in different years
+* one dataset containing images and comments that users have made against them and a dataset of food hygiene ratings collection by different councils.
+
+=== Additional information
+
+==== Decision
+
+In the end, it is the data providers that decide on how to organize their data into datasets. This is illustrated nicely by the operational definition of a dataset that was adopted during the development of Google Dataset Search: “anything that a data provider considers to be a dataset is a dataset” <<Brickley19>>. <<ISO19115:2014>> underpins this view: “The definition of what constitutes a “dataset” reflects the institutional and software environments of the originating organisation and modes of data access and utilization”.
+
+Often, organisations dealing with data will have guidelines, principles or rules for the organization of data into datasets. An example of such good practices is to organize data so that the data in a dataset have the same set of governance processes, have a shared provenance and share a common schema <<Dodd17>>.
+
+Practical experience shows that the question “but what is a dataset?” often comes up, and therefore it is proposed to explicitly add a note to emphasize that this is not a law of nature but a decision made by the data provider(s).

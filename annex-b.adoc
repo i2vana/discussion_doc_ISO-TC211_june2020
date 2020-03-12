@@ -1,7 +1,7 @@
 [appendix]
 :appendix-caption: Annex
 
-== Overview of principles for good definitions (Informative)
+== Overview of principles for good definitions
 
 This document refers several times to principles for good definitions, such as:
 

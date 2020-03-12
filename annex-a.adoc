@@ -5,22 +5,22 @@
 
 For reference, several of definitions of “dataset” that were encountered during the writing of the original proposal and this document are listed in this section. This list is by no means exhaustive.
 
-[cols="5,1,1",options="header"]
+[cols="8,2,1",options="header"]
 |===
 |Definition |Source |Organisation
-|identifiable collection of data |[ISO 19115:2014] |ISO
-|logically meaningful grouping of data |[ISO 8000-2:2018] |ISO
-|A collection of data, published or curated by a single agent, and available for access or download in one or more representations. |[DCAT v2] |W3C
-|A collection of data, published or curated by a single agent, and available for access or download in one or more formats. |[DCAT v1] |W3C
-|A body of structured information describing some topic(s) of interest. |[schema.org] |W3C
-|A set of RDF triples that are published, maintained or aggregated by a single provider. |[VoID] |DERI
-|Data encoded in a defined structure. |[DCMI] |DCMI
-|Any organized collection of data. |[OECD] |OECD
-|A collection of related observations organized and formatted for a particular purpose. |[Chapman19] |-
-|A data item that is an aggregate of other data items of the same type that have something in common. Averages and distributions can be determined for data sets. |[IAO] |-
-|A dataset is a collection of data that is managed using the same set of governance processes, have a shared provenance and share a common schema |[Dodd17] |-
-|A data set is a collection of related, discrete items of related data that may be accessed individually or in combination or managed as a whole entity. |[WhatIs] |-
-|A collection of related data records. |[NCIt] |-
-|a collection of data that is treated as a single unit by a computer |[OALD] |-
-|a collection of separate sets of information that is treated as a single unit by a computer |[CALD] |-
+|identifiable collection of data |<<ISO19115:2014>> |ISO
+|logically meaningful grouping of data |<<ISO8000-2:2018>> |ISO
+|A collection of data, published or curated by a single agent, and available for access or download in one or more representations. |<<DCATv2>> |W3C
+|A collection of data, published or curated by a single agent, and available for access or download in one or more formats. |<<DCATv1>> |W3C
+|A body of structured information describing some topic(s) of interest. |<<schema.org>> |W3C
+|A set of RDF triples that are published, maintained or aggregated by a single provider. |<<VoID>> |DERI
+|Data encoded in a defined structure. |<<DCMI>> |DCMI
+|Any organized collection of data. |<<OECD>> |OECD
+|A collection of related observations organized and formatted for a particular purpose. |<<Chapman19>> |-
+|A data item that is an aggregate of other data items of the same type that have something in common. Averages and distributions can be determined for data sets. |<<IAO>> |-
+|A dataset is a collection of data that is managed using the same set of governance processes, have a shared provenance and share a common schema |<<Dodd17>> |-
+|A data set is a collection of related, discrete items of related data that may be accessed individually or in combination or managed as a whole entity. |<<WhatIs>> |-
+|A collection of related data records. |<<NCIt>> |-
+|a collection of data that is treated as a single unit by a computer |<<OALD>> |-
+|a collection of separate sets of information that is treated as a single unit by a computer |<<CALD>> |-
 |===

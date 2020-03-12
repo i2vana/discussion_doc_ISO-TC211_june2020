@@ -1,0 +1,11 @@
+== Introduction
+
+Datasets should be described consistently across organisations, processes and IT systems in order to create successful digital solutions. In order to achieve this, definitions of the same concepts must be aligned where possible, not only within domains but also across domains.
+
+Several definitions exists for the concept of a “dataset”, as for instance described in <<Renear10>>:
+
+____
+The concept of a dataset is common to almost every scientific discipline where data provide the empirical basis for research activities. Yet there has been little analysis of this central concept. Although the term occurs routinely in articles, papers and reports, as well as informal conversation among scientists, there is no precisely specified established definition. Nevertheless the term dataset appears to be unproblematic in its common use, suggesting that there is at least a general shared understanding [...]
+____
+
+This document tries to come to a better understanding of the concept of “dataset”.

@@ -1,0 +1,14 @@
+== Abbreviations
+
+[cols="1,8"]
+|===
+|DCAT |Data Catalog Vocabulary
+|DXWG |Dataset Exchange Working Group
+|DCMI |Dublin Core Metadata Initiative
+|DERI |Digital Enterprise Research Institute
+|ISO |International Organization for Standardization
+|OGC |Open Geospatial Consortium
+|OECD |Organisation for Economic Co-operation and Development
+|TC |Technical Committee
+|W3C |World Wide Web Consortium
+|===

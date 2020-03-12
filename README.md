@@ -1,4 +1,4 @@
-# On the definition of "dataset"
+# On the definition of “dataset”
 
 Discussion paper on the definition of dataset.
 
@@ -14,7 +14,7 @@ This folder contains the text for the Discussion Paper
 
 ## Building
 
-To produce the HTML of the Discussion Paper run `asciidoctor --safe -a data-uri -o <Discussion Paper name>.html dp.adoc`
+To produce the HTML of the Discussion Paper run `asciidoctor --safe -a data-uri -o DiscussionPaperDataset.html dp.adoc`
 
-To produce the PDF of the Discussion Paper run `asciidoctor-pdf --safe -o <Discussion Paper name>.pdf dp.adoc`
+To produce the PDF of the Discussion Paper run `asciidoctor-pdf --safe -o DiscussionPaperDataset.pdf dp.adoc`
 

@@ -1,0 +1,42 @@
+== Background
+
+=== Process
+
+ISO/TC 211 and W3C operate with different definitions for “dataset”. In order to come closer to an established definition, the Danish Agency for Digitisation (member of W3C) and the Danish Agency for Data Supply and Efficiency (member of OGC and member of ISO/TC 211) submitted a joint proposal for an updated definition for the concept “dataset” to all three involved organisations.
+
+The submission to W3C was given to the Dataset Exchange Working Group (DXWG) as GitHub issue https://github.com/w3c/dxwg/issues/1195[[.underline]#w3c/dxwg/#1195#]. The submission to OGC and ISO/TC 211 was given as a comment on OGC API - Features - Part 1: Core (OGC 17-069r3 & ISO 19168-1) as GitHub issue https://github.com/opengeospatial/ogcapi-features/issues/312[[.underline]#opengeospatial/ogcapi-features#312#] (OGC) and in document N5273 in (ISO/TC 211).
+
+=== Proposal
+
+The joint proposal was:
+
+[glossary]
+dataset::
+    collection of data that is regarded as a unit
+	
+.General notes
+. Typically, a dataset is collected for a certain purpose.
+. Typically, a dataset is described using metadata elements including an identifier and a title.
+. Typically, a dataset is available for use in one or more representations.
+. Typically, a dataset is published or curated by a single agent.
+. Typically, the data in a dataset are related through a common topic.
+. Typically, the data in a dataset have the same syntactic structure.
+. Typically, the data in a dataset are managed using the same governance processes.
+. Typically, the data in a dataset have a shared data provenance.
+. The arrangement of data in one or more datasets is a decision, based on formal requirements or informal considerations.
+
+.Data catalog specific notes
+[start=10]
+. In the context of DCAT, a dataset is published or curated by a single agent.
+. In the context of DCAT, a dataset is available for access or download in one or more representations.
+
+.Geographic information specific notes
+[start=10]
+. In the context of geographic information, a dataset can be a smaller grouping of data which, though limited by some constraint such as spatial extent or feature type, is located physically within a larger dataset. Theoretically, a dataset can be as small as a single feature or feature attribute contained within a larger dataset.
+. In the context of geographic information, a hardcopy map or chart can be considered a dataset.
+
+=== The use of notes
+
+Common for the notes 1 to 8 is that they were added because several existing definitions include the characteristic described as a defining characteristic, whereas this document provides arguments that these characteristics are typical but not defining. Those typical characteristics were therefore mentioned in a note to the definition. The use of notes and examples is good practice in the terminology field, where they are used to state the most important inessential characteristics <<Nordterm>> or to help to audience understand a term’s intended meaning <<Seppälä>>. This practice is also used in standards writing in ISO and IEC <<Directives>>.
+
+In general, the response to the proposal in OGC and ISO/TC 211 so far has been that it would be good to have broad consensus on the definition of “dataset”. In addition, concerns have been expressed on the number of notes. A possible solution might be to have a paper elaborating on the concept of “dataset”, so that other documents can refer to that paper.
