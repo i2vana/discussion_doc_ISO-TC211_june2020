@@ -50,7 +50,7 @@ However, a dataset may be in a stage where it is only planned and the data have 
 
 By introducing the restriction that a dataset must be either curated or published by a single agent, collaboratively generated resources cannot be considered datasets. Platforms such as Twitter allow for creating datasets with user-generated data. Application domains based on Twitter such as participatory sensing and crowdsourcing are emerging <<Demirbas10>>. Research based on data mining of tweets, as for instance done in <<Go09>>, is also done on datasets that are not published or curated by a single agent .
 
-Given the above, “published or curated by a single agent,'' should not be present in a “dataset” definition.
+Given the above, “published or curated by a single agent” should not be present in a “dataset” definition.
 
 ==== Common topic
 
@@ -62,7 +62,7 @@ As already indicated in <<Renear10>>: “data in a dataset are typically expecte
 
 ==== Governance & data provenance
 
-<<Dodd17>> provides a working definition of “dataset”,“collection of data that is managed using the same set of governance processes, have a shared provenance and share a common schema”, which are indeed useful criteria for data providers that are trying to find a way to publish their data.
+<<Dodd17>> provides a working definition of “dataset”, “collection of data that is managed using the same set of governance processes, have a shared provenance and share a common schema”, which are indeed useful criteria for data providers that are trying to find a way to publish their data.
 
 However, an established definition of “dataset”, should be broad enough to cover the following two examples, modified from <<Dodd17>> - although best practice usually will be to organise these data in several datasets:
 
